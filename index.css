@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT SIDE */
+.left {
+  width: 60%;
+  padding: 50px 70px;
+  background: white;
+}
+
+.logo {
+  width: 120px;
+  height: 50px;
+  background: #eee;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.left h1 {
+  font-size: 48px;
+  color: #0a2440;
+  margin-bottom: 10px;
+}
+
+.left h2 {
+  color: #23395d;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.sub {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-box {
+  border: 2px solid #eee;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-box input {
+  padding: 10px 15px;
+  width: 150px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+
+.or {
+  font-weight: bold;
+  color: #555;
+}
+
+/* TABLE STYLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th {
+  text-align: left;
+  color: #666;
+  padding-bottom: 10px;
+}
+
+table td {
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 40%;
+  background: #111;
+  color: white;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.fake-card {
+  width: 180px;
+  height: 280px;
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 auto 15px;
+}
+
+.fee {
+  background: #222;
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.benefit-text {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.amount {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 15px 20px;
+  border-radius: 40px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  font-size: 15px;
+}
